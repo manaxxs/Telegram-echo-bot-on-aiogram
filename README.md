@@ -1,2 +1,35 @@
-# Telegram-echo-bot-on-aiogram
-A simple Telegram echo bot built with **aiogram 3.x**. The bot repeats any message you send and includes basic commands.
+# Echo Bot
+
+Простой эхо-бот для Telegram, написанный на Python с использованием aiogram 3.x.
+
+## Настройка
+
+1. Создай бота через @BotFather в Telegram
+2. Скопируй токен бота
+3. Создай файл `.env` в корне проекта:
+
+```
+BOT_TOKEN=твой_токен_бота
+```
+
+## Запуск
+
+```bash
+python bot.py
+```
+
+## Команды
+
+- `/start` — запуск бота
+- `/help` — список команд
+
+## Использование
+
+После запуска просто пиши боту любой текст, и он повторит его обратно.
+
+## Требования
+
+- Python 3.11+
+- aiogram 3.4.1
+- python-dotenv
+
